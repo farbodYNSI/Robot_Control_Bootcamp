@@ -5,8 +5,8 @@ def main() -> None:
     heat = False
     try:
         while True:
-            # write your code here
             temp = sim.current_temp
+            # write your code here
 
             
             key = sim.run(heat) #True for turning on the heating element, False for turning it off
