@@ -88,7 +88,7 @@ The simulator calculates the derivative and integral internally, so students do 
 ## 🎮 Controls
 - Press `q` or `Esc` to quit.
 - Press `r` to reset.
-- Press 'n' to change target.
+- Press `n` to change target.
 
 ## 📁 Project Structure
 
