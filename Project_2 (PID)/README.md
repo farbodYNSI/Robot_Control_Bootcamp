@@ -85,37 +85,10 @@ control = (
 
 The simulator calculates the derivative and integral internally, so students do not need to implement numerical differentiation or integration yet.
 
-## 🧪 Recommended Teaching Sequence
-
-1. **Acceleration input + P controller**  
-   Show oscillation.
-
-2. **Acceleration input + PD controller**  
-   Add damping and reduce oscillation.
-
-3. **Add a constant actuator disturbance**  
-   Demonstrate steady-state error.
-
-4. **Add I and use PID**  
-   Show how integral action compensates the constant disturbance.
-
-5. **Change the plant input from acceleration to velocity**  
-   Show that controller behavior depends on the plant.
-
-6. **Velocity input + P + stationary target**  
-   Demonstrate stationary tracking.
-
-7. **Velocity input + P + moving target**  
-   Demonstrate persistent tracking lag.
-
-8. **Velocity input + PI + moving target**  
-   Show how integral action reduces tracking error.
-
-Later lessons can introduce numerical differentiation, numerical integration, sampling time, filtering, actuator saturation, integral windup, and anti-windup.
-
 ## 🎮 Controls
 - Press `q` or `Esc` to quit.
 - Press `r` to reset.
+- Press 'n' to change target.
 
 ## 📁 Project Structure
 
